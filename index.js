@@ -18,5 +18,5 @@ var server = http.createServer(function(req, res) {
   proxy.web(req, res, { target: 'https://github.com' });
 });
 
-console.log("listening on port 5050")
-server.listen(5050);
+console.log("listening on port 80")
+server.listen(80);
